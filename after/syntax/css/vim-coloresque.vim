@@ -6,7 +6,6 @@
 " based on
 " https://github.com/ap/vim-css-color
 " https://github.com/lilydjwg/colorizer
-" vim:et:ts=2 sw=2 sts=2
 
 let s:hex={}
 let b:matchescache = {}
@@ -630,3 +629,4 @@ if has("gui_running") || &t_Co==256
 
   "autocmd CursorMoved  <buffer> silent call s:ProcessByLine('.')
 endif
+" vim:et:ts=2 sw=2 sts=2
